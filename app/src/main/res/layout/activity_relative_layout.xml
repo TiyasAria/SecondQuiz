@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".relativeLayout">
+    <TextView
+        android:id="@+id/ko1"
+        android:layout_width="@dimen/_140dp"
+        android:layout_height="@dimen/_70dp"
+        android:background="#EFF605"/>
+    <TextView
+    android:id="@+id/ko2"
+    android:layout_width="140dp"
+    android:layout_height="70dp"
+    android:background="#EFF605"
+    android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/ko3"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:background="#EF7D27"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/ko4"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="#5EDD1A"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/ko2"/>
+
+    <TextView
+        android:id="@+id/ko5"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ko4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="69dp"
+        android:layout_toStartOf="@id/ko4"
+        android:background="#EFF605" />
+
+    <TextView
+        android:id="@+id/ko6"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ko5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:background="#EFF605" />
+
+    <TextView
+        android:id="@+id/ko7"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ko5"
+        android:layout_alignParentStart="true"
+        android:layout_toEndOf="@id/ko6"
+        android:layout_marginTop="10dp"
+        android:background="#EF7D27" />
+
+    <TextView
+        android:id="@+id/ko8"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ko6"
+        android:layout_alignParentEnd="true"
+        android:background="#5EDD1A" />
+
+    <TextView
+        android:id="@+id/ko9"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ko7"
+        android:layout_toStartOf="@id/ko8"
+        android:background="#EFF605" />
+    <TextView
+        android:id="@+id/ko10"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ko9"
+        android:layout_alignParentStart="true"
+        android:background="#EFF605" />
+    <TextView
+        android:id="@+id/ko11"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ko9"
+        android:layout_alignParentEnd="true"
+        android:background="#313ADA" />
+    <TextView
+        android:id="@+id/ko12"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ko11"
+        android:layout_centerHorizontal="true"
+        android:background="#FF0707" />
+
+    <TextView
+        android:id="@+id/ko13"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#EF7D27" />
+    <TextView
+        android:id="@+id/ko14"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ko12"
+        android:layout_alignParentEnd="true"
+        android:background="#EFF605"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/ko15"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ko14"
+        android:background="#EF7D27"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/ko16"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ko12"
+        android:background="#EF7D27"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</RelativeLayout>
